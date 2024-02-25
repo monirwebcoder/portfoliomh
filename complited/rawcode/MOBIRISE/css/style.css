@@ -1,0 +1,595 @@
+/*========================
+   BASIC SETUP 
+======================*/
+* {
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+    
+}
+
+html{
+	font-size: 62.5%;
+    line-height:1.3;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    text-rendering:optimizeLegibility;
+   
+}
+/*========================
+   Resuse option 
+======================*/
+.row {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 6rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-size: 400;
+
+}
+
+/*========================
+    Header option 
+======================*/
+
+header {
+
+    width: 100%;
+    height: 8rem;
+   
+
+}
+
+.logo {
+    width: 40%;
+    height: 8rem;
+    float: left;
+}
+
+.logo a span {
+    color: #999999;
+    display: inline-block;
+    font-size: 3.5rem;
+    margin-left: 2rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+
+
+}
+
+.menu {
+    width: 60%;
+    height: 8rem;
+    float: right;
+    margin-top: 2.5rem;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 23rem;
+
+}
+
+ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+ul li a {
+    color: gray;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size:1.6rem;
+    
+
+}
+
+ul li a:hover {
+    color: #000;
+}
+
+.dropdown-content {
+    background: #000;
+    display: none;
+    position: absolute;
+    min-width: 14rem;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.dropdown-content a:hover {
+    background: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*========================
+        STIKY NAVIGATION
+=========================*/
+.sticky{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    background:#fff;
+    padding:1rem 0;
+    -webkit-box-shadow:0 .3rem 0.5rem rgba(255,255,255,.4);
+    box-shadow:0 .3rem 0.5rem rgba(255,255,255,.4);
+    z-index:99999;
+} 
+.sticky .logo{
+    margin-top:0;
+}
+
+/*========================
+Slider option 
+======================*/
+.slider-section {
+    background: url(../images/03.jpg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+    margin-top: 0;
+}
+
+.slider-option {
+    position: absolute;
+    left: 12rem;
+    top: 11rem;
+    margin: 3rem;
+}
+
+.slider-option h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: .1rem .1rem .2rem #fff;
+}
+
+.slider-option p {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 2;
+    text-transform: capitalize;
+}
+
+.slider-option p span {
+    display: inline-block;
+    font-size: 5.2rem;
+    font-weight: 50rem;
+    color: #FFBC00;
+    letter-spacing: .3rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.slider-option span {
+    display: block;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 7rem;
+
+}
+
+.slider-option a {
+    text-decoration: none;
+    color: white;
+    background: #FFBC00;
+    padding: 1rem 3rem;
+    margin-top: 10rem;
+    font-size:1.6rem
+
+}
+
+/*========================
+Carasol  option 
+======================*/
+.specialized-section {
+    text-align: center;
+}
+
+.specialized-section h2 {
+    margin: 2rem 0;
+    
+}
+
+.specialized-section h2::after {
+    content: "";
+    display: block;
+    border-bottom: .1rem solid #7E7E7E;
+    width: 30rem;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+
+.little-des {
+    
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.carasol-section {
+    width: 28rem;
+    height: 38rem;
+    text-align: left;
+    margin: 1rem;
+    float: left;
+}
+
+.carasol-section .icons {
+    color: #6A6A6A;
+    margin-top: 5rem;
+    font-size: 5rem;
+}
+
+.carasol-section h3 {
+    color: #6A6A6A;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.carasol-section p {
+    color: #6A6A6A;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.specialized-section .carasol-section:hover .icons i {
+    color: #FFBC00;
+
+}
+
+/*========================
+Icons  option 
+======================*/
+
+.icon-section {
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.icon-element {
+    width: 25%;
+    height: 40rem;
+    float: left;
+    background: #CCCCCC;
+    padding-top: 8rem;
+}
+
+.icon-element:nth-child(2),
+.icon-element:nth-child(4) {
+    background: #EFEFEF;
+}
+
+.icons-element i {
+    font-size: 4rem;
+}
+
+.details h3 {
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.details span {
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: 600;
+    display: block;
+}
+
+.icon-element:hover .icons-element i {
+    color: #FFBC00;
+
+}
+
+/*========================
+    Work  option 
+======================*/
+.work-program {
+    text-align: center;
+    clear:both;
+
+
+}
+
+.work-program h2 {
+    padding: 4rem 0;
+}
+
+.work-program h2::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #7E7E7E;
+    width: 10rem;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.work-program p {
+    color: #6A6A6A;
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.work {
+    width: 29rem;
+    height: 38rem;
+    margin: 1rem .5rem;
+    float: left;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.work-icon {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background: gray;
+    margin-left: 9rem;
+
+
+}
+
+
+.work-icon i {
+    font-size: 3rem;
+    padding: 4.2rem 0;
+    color: #fff;
+
+}
+
+.number-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #FFBC00;
+    padding: .5rem 0;
+    position: absolute;
+    left: 17.2rem;
+    top: 0;
+}
+
+.work-detail h3 {
+    font-size: 2.5;
+    font-weight: 40rem;
+    margin-top: 3rem;
+}
+
+.work-detail p {
+    margin-top: 1.5;
+    font-size: 1.8rem;
+}
+
+.work-detail p a {
+    display: inline-block;
+    text-decoration: none;
+    color: RGB(255, 188, 82);
+
+}
+
+.work:hover .work-icon {
+    background: #FFBC00;
+
+}
+
+.work:hover .number-icon {
+    background: #000;
+    color: #fff;
+
+}
+
+/*========================
+        About  option 
+======================*/
+
+.about-section {
+    margin-top: 10rem;
+    background: #EFEFEF;
+    width: 100%;
+    height: 80rem;
+    clear: both;
+}
+
+.about-part {
+    width: 60rem;
+    height: 80rem;
+    float: left;
+}
+
+.about-part h2 {
+    padding-top: 6rem;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #232323;
+}
+
+.about-part h3 {
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #A1A1A !;
+}
+
+.about-part p {
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    font-weight: 200;
+    color: #6B6B6B !;
+    text-align: justify;
+}
+
+.about-part img {
+    width: 100%;
+    height:75rem;
+    margin-left:2rem;
+    padding: 2rem 2rem;
+}
+
+.about-tag ul {
+    margin-left:1rem;
+    padding-top:1rem;
+    margin-bottom:4rem;
+   
+
+}
+
+.about-tag ul li {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: left;
+    list-style-type:none;
+
+}
+.about-tag ul li i{
+    color:#FFBC00;
+    padding-right:5px;
+}
+
+.socila-icon ul {
+    margin: 0;
+    padding: o;
+    list-style-type: none;
+}
+
+.socila-icon ul li {
+   
+}
+
+.socila-icon ul li a {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+
+}
+
+.socila-icon ul li a i {
+    margin-left: 0.2rem;
+    margin-top: .2rem;
+     font-size: 2.5rem;
+
+}
+
+.socila-icon ul li a:hover {
+    background: #FFBC00;
+}
+
+
+
+/*========================
+Footer  option 
+======================*/
+.footer {
+    width: 100%;
+    height: 15rem;
+    background: #000;
+    margin:0;
+}
+
+.copyright {
+    width: 50%;
+    float: left;
+    margin: 4rem 0;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+
+.copyright p a {
+    text-decoration: none;
+    color: #FFBC00;
+}
+
+.copyright p a:hover {
+    color: #a28432;
+}
+
+.copyright ul {
+    margin:0;
+    padding: o;
+    list-style-type: none;
+}
+
+.copyrightul ul li {
+    font-size: 3rem;
+    margin-left: 2rem;
+}
+
+.copyright ul li a {
+    width: 5rem;
+    height: 5rem;
+    border:.15rem solid #fff;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+
+
+}
+
+.copyright ul li a i {
+   margin-left: .2rem;
+   font-size:2rem;
+   margin-top:.2rem;
+
+}
+
+.copyright ul li a i:nth-child(4) {
+   margin-left: -.1rem;
+ 
+}
+
+.copyright ul li a:hover {
+    background: #FFBC00;
+}
+
+
+
+.contact-section{
+    background-color:gray;
+    width:100%;
+       height:600px;
+}
+
+.contact-1{
+        width:50%;
+        height:600px;
+        float:left;
+        background-color:red;
+}

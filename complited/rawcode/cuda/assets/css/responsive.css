@@ -1,0 +1,135 @@
+@media only screen and (max-width:1200px){
+    header{
+        height:65vh;
+    }
+    .row{
+        margin:0 15px;
+    }
+    .hero-text-box{
+     width:100%   
+    }
+}
+@media only screen and (max-width:1024px)
+{
+    header{
+        height:55vh;
+    }
+
+.main-nav{
+        display:none;
+    }
+    .mobile-menu span{
+        display:block;
+    }
+html{
+	font-size: 57.5%;
+    scroll-behavior:smooth;
+}
+.client-photo{
+    width:100%;
+    float:none;
+    text-align:center
+}
+.client-review{
+    width:100%;
+    float:none;
+    margin-left:0;
+    margin-top:2rem;
+    
+}
+.contact-section form{
+      width:100%;
+      margin-left:0;
+}
+}
+
+@media only screen and (max-width:980px){
+    .span_1_of_4{
+       width:49.2%; 
+    } 
+    .span_1_of_4:nth-child(3){
+        margin-left:0;
+    }
+    html{
+        62.5%;
+    }
+.client-photo{
+    width:90%;
+    float:none;
+    text-align:center
+}
+.client-review{
+    width:90%;
+    float:none;
+   margin-left:5%;
+    text-align:center
+}
+}
+@media only screen and (max-width:768px){
+    header{
+        height:60vh;
+    }
+    .little-discription{
+        width:100%;
+        margin-left:0;
+    } 
+    h1{
+        font-size:3.5rem;
+    }
+    h2{
+        font-size:3rem;
+    }
+    h3{
+        font-size:2rem;
+    }
+    .testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4){
+    margin-top:5rem;
+}
+}
+@media only screen and (max-width:480px){
+    header{
+        height:65vh;
+    }
+    h1{
+        font-size:2.5rem
+    }
+    h2{
+        font-size:2rem;
+        font-size:1.8rem;
+    }
+    h3{
+        font-size:1.5rem;
+    }
+    .span_1_of_4{
+       width:100%; 
+    } 
+    .client-photo{
+    width:100%;
+    float:none;
+    text-align:center
+}
+.client-review{
+    width:100%;
+    float:none;
+   margin-left:0;
+    text-align:center
+}
+    .footer-section{
+        padding:1rem 0;
+    }
+    .testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4){
+    margin-top:4rem;
+}
+    .footer-section li{
+    display: inline-block;
+    margin:0 1rem;
+    }
+    .footer-section li a{
+    color:#fff;
+    text-decoration:none;
+    text-transform:capitalize;
+    font-size:1.4rem;
+}
+}

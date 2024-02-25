@@ -1,0 +1,49 @@
+
+
+@media (max-width:767px) {
+    .navbar-collapse li {
+    background:#000;
+    border-bottom:.5px solid #fff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+        z-index: 9999999999999;
+}
+    .service-item{
+        transform: scale(1);
+    } 
+    .service-iten-hover{
+         transform: scale(0);
+    }
+    #newsletter .form-group .form-control{
+        width:55%;
+   
+    
+}
+
+    #newsletter form .form-group i{
+        top:173px;
+        right:28%;
+    }
+    .map-box-item-two{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .footer-social ul li {
+    padding: 15px 5px;;
+}
+    .footer-social ul li a,
+    .pro-social ul li a{
+        padding:10px;
+    }
+}
+@media (max-width:400px) {
+    .footer-social ul li {
+    padding: 15px 2px;;
+}
+    .footer-social ul li a,
+    .pro-social ul li a{
+        padding:5px;
+    }
+    
+}

@@ -1,0 +1,225 @@
+
+[class*="col-"] {
+  float: left;
+ 
+}
+.row{
+    width:90%;
+    margin:0 auto;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+@media only screen and (max-width: 1199px){
+    
+    .seaech-icon {
+    padding-left:10px;
+}
+  
+    
+    
+    
+       
+    
+}
+  
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+   .menu{
+        display:none;
+    }
+    .seaech-icon{
+      display:none;
+    }
+    .mobile-menu span{
+        display:block;
+    }
+    
+ header h2 {
+       font-size: 43.33px;
+    }
+header .header-des p {
+    padding-left: 188px;
+    padding-right:120px;
+    text-align: justify;
+    }
+    .best-img{
+        margin:0 auto;
+    }
+    
+    #subscribe .btn-del{
+        right:140px;
+    }
+    
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .col-6,.col-4{
+        width:100%;
+    }
+    #best-seler:before{
+        display: none;
+    }
+    #besttest .main-box{
+        text-align: center;
+    }
+    
+    #statics::before{
+        left:80px;
+    }
+    #statics::after{
+        right: 60px;
+        top: 90px;
+    }
+    
+    .count-number{
+         margin: 0 auto;
+        margin-bottom:30px;
+    }
+    #delicious .btn-del{
+       right: 300px;
+    }
+   #besttest .header-des p {
+   
+       margin-bottom: 90px;} 
+#delicious::before {
+    left: 48px;
+    top: 211px;}
+#delicious::after {
+   top:50%;}
+
+  
+    footer .col-5{
+        width:100%;
+        text-align: center;
+    }
+    .footer-widget{
+        padding-right: 0;
+        text-align: center;
+    }
+    .widget-content p{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .widget-social{
+        margin: 20px 30%;
+    }
+    footer .col-3{
+        width:50%;
+    }
+     footer .col-2{
+        width:25%;
+    }
+    #subscribe{
+        position: relative;
+    }
+     #subscribe .btn-del{
+        right:265px;
+         bottom:20%;
+    }
+   
+	
+}
+
+@media only screen and (max-width:575px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+    .mobile-menu span{
+        top:-106px;
+    }
+    header h2 {
+    font-size: 28.33px;
+}
+    header .header-des p {
+    padding-left: 116px;
+    padding-right: 35px;
+    
+}
+    #statics::before {
+    left: 34px;
+}
+     #statics::after {
+    right:10px;
+    top: 22px;
+} 
+    .emailform {
+        width: 479px;}
+   
+#subscribe .btn-del {
+    padding: 9px 33px;}
+
+footer .col-3{
+    width:100%;
+    margin:0 auto;
+     text-align: center;
+    }
+     footer .col-2{
+        width:100%;
+        text-align: center;
+    }
+
+
+.widget-title h4{
+    margin-top: 20px;
+}
+}
+
+
+@media only screen and (max-width:480px) {
+h1 {
+font-size: 54px;}
+
+.mobile-menu span{
+	right:75px;
+}
+header h2 {
+    font-size: 17.33px;
+}
+header .header-des p {
+    padding-left: 3px;
+padding-right: 16px;}
+.best-img {
+margin-left:-47px;
+}
+
+element {
+
+}#besttest .best-img{
+	margin-left:-16px;
+}
+#besttest .best-img img{
+max-width:80%}
+.emailform {
+    width: 312px;
+}
+#subscribe .btn-del {
+right: 84px;}
+}

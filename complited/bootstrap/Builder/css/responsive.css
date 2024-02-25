@@ -1,0 +1,20 @@
+
+@media (max-width: 575.98px) { 
+
+.banner-title h1{
+	font-size:40px;
+}
+
+
+ 
+
+
+
+@media (max-width: 480px) { 
+
+.banner-title h1{
+	font-size:30px;
+}
+
+
+ }

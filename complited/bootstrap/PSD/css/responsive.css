@@ -1,0 +1,192 @@
+@media (max-width:1199px) {
+    .slider-content {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .slider-content .para-1 {
+        font-size: 20px;
+
+    }
+
+    .slider-content h2 {
+        font-size: 40px;
+
+
+    }
+
+    .main-content {
+        padding-left: 75px;
+
+    }
+}
+
+@media (max-width:1024px) {
+    .about-section {
+        margin-top: 50px;
+    }
+
+    .do-img img {
+
+        margin-bottom: -10%;
+
+    }
+
+    .widget-logo .img-fluid {
+        max-width: 85%;
+    }
+
+    .widget-social ul li a {
+
+        padding: 5px;
+    }
+
+    .big-btn .our-btn {
+
+        padding: 30px 31px;
+        border-radius: 50px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    .top-content {
+        display: block;
+        text-align: center;
+    }
+
+    .top-left ul,
+    .top-right ul {
+        display: block;
+    }
+
+    .top-right ul li {
+        display: inline-block;
+    }
+
+    .top-left ul li {
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    header {
+        position: static;
+    }
+
+
+    .slider {
+
+        padding-top: 0;
+    }
+
+    .do-img img {
+        max-width: 100%;
+        margin-bottom: -10%;
+
+    }
+
+    .our-nav-item {
+        display: block;
+    }
+
+    .big-btn .our-btn {
+        font-size: 12px;
+        padding: 30px 10px;
+        ;
+    }
+
+    .widget-logo .img-fluid {
+        max-width: 100%;
+    }
+
+    .widget-social ul li a {
+
+        padding: 10px;
+    }
+
+
+}
+
+
+@media (max-width:600px) {
+    .slider-content .para-1 {
+        font-size: 14px;
+
+    }
+
+    .slider-content h2 {
+        font-size: 30px;
+    }
+
+    .slider-content .para-2 {
+        font-size: 10px;
+    }
+
+    .slider .our-btn {
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .footer-sec .widget {
+        padding-top: 30px;
+
+    }
+
+
+}
+
+@media (max-width:480px) {
+    .slider-content .para-1 {
+        font-size: 10px;
+    }
+
+    .slider-content .para-2 {
+        font-size: 8px;
+    }
+
+    .slider-item img {
+        max-width: 150%;
+        ;
+    }
+
+    .slider-btn .our-btn {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .big-btn .our-btn {
+        font-size: 10px;
+        padding: 20px 10px;
+        ;
+    }
+
+}
+
+@media (max-width:480px) {
+    .slider-content h2 {
+        font-size: 20px;
+    }
+
+    .slider-content .para-2 {
+        display: none;
+    }
+
+    .abt-img {
+        width: 250px;
+        margin: auto;
+    }
+
+    .big-btn .our-btn {
+        font-size: 6px;
+        padding: 10px 0;
+        ;
+    }

@@ -1,0 +1,241 @@
+[class*="mon-"] {
+  float: left;
+ 
+}
+
+
+
+
+.mon-1{
+   width: 8.33%;
+   
+}
+
+.mon-2{
+   width: 16.66%;;
+ 
+}
+
+.mon-3{
+   width:25%;
+   
+}
+.mon-4{
+   width:33.33%;
+   
+}
+.mon-5{
+   width:41.66%;
+    
+}
+.mon-6{
+   width:50%;
+   
+}
+
+.mon-7 {width: 58.33%;}
+.mon-8 {width: 66.66%;}
+.mon-9 {width: 75%;}
+.mon-10 {width: 83.33%;}
+.mon-11 {width: 91.66%;}
+.mon-12 {width: 100%;}
+
+
+
+
+@media only screen and (max-width: 1199px) {
+  
+    .main-menu ul li a{
+    	padding-left: 5px;
+    	padding-right: 5px;
+    }
+   
+}
+
+@media only screen and (max-width: 1024px) {
+  
+    .slider-content h2::before {
+    
+    left:0;
+    
+}
+   .slider-content h2::after {
+    
+    right:0;
+    
+}
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+ 
+header  .mon-5{
+ 	width:21.66%;
+ }
+ header  .mon-6{
+ 	width:70%;
+ 	
+ }
+   
+    
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .main-menu{
+    display: none;
+  }
+  .mobile-menu span{
+    display: block;
+  }
+  .mon-1{
+    display:none;
+  }
+  header  .mon-5{
+ 	width:100%;
+ }
+ header  .mon-6{
+ 	width:100%;
+ 	
+ }
+ .slider-img img{
+  min-height:500px;
+ }
+ .slider-content h1{
+  font-size:50px;
+ }
+ .slider-content h2::before {
+    left: -31%;
+}
+.slider-content h2::after {
+    right: -31%;
+}
+	.mon-3,.mon-1,.mon-2,.mon-5,.mon-6 {width:100%;}
+    .mon-4{width:100%;}
+    .masonary-gallery-columon{
+    	width:50%;
+    }
+.story-content{
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.galleryoimg{
+  padding-left:10%;
+}
+.amar-class{
+  width:50%;
+  float:left;
+  padding-right:8%;
+ 
+}
+
+#skilSection{
+  padding-left:10%;
+}
+#counting{
+   padding-right:22%;
+  padding-left:22%;
+}
+.form-section{
+  margin-top:10px;
+}
+
+
+
+    
+}
+
+@media only screen and (max-width:575px) {
+ .serch-icon{
+ 	display: none;
+ }
+ .amar-class{
+  width:100%;
+  padding-right:15%;
+  padding-left:15%;
+ 
+ 
+}
+#skilSection{
+  padding-left:5%;
+}
+  .masonary-gallery-columon{
+    	width:100%;
+    }
+
+[class*="mon-"] {
+  width::100%;
+ 
+}
+#skilSection{
+  padding-left:2px;
+}
+#counting{
+   padding-right:12%;
+  padding-left:12%;
+}
+.footer-menu ul li a{
+  padding-left:2px;
+  padding-right:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:480px) {
+#counting {
+    padding-right:8%;
+    padding-left: 8%;
+}
+.form-section input,
+ .form-section .message{
+  width:350px;
+  margin:15px;
+
+}
+
+.form-section .btnsubmit{
+  right:120px;
+}
+.footer-menu ul li{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+
+
+}
+@media only screen and (max-width:400px) {
+.footer-menu ul{
+  display:block;
+}
+}
+
+@media only screen and (max-width:320px) {
+#counting {
+    padding-right:0;
+    padding-left: 0;
+}
+.count-item {
+    width: 279px;}
+}

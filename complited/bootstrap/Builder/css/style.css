@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+/*==============================
+        Header Section
+===============================*/
+
+header{
+    background:url(../img/home.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    background-position:center;
+    min-height:550px;
+    position:relative;
+    overflow:hidden;
+}
+header:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(7,180,105,.2);
+
+}
+header .container{
+    position:relative;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-brand:hover{
+    color:#07b569;
+}
+
+.banner-title h1{
+    font-size:54px;
+    color:#fff;
+    text-align:center;
+    padding:150px 130px;
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color:#fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+   color:#07b569;
+}
+.navbar-light .navbar-nav .active a {
+     color:#07b569;
+}
+.navbar-light .navbar-nav .active > .nav-link{
+     color:#07b569;
+}
+.sticky nav{
+    position:fixed;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background:#000;
+
+}
+/*==============================
+        About Section
+===============================*/
+#about-section .container{
+    position:relative;
+}
+
+#about-section .bg-overlay:before{
+    content:"";
+    position:absolute;
+    top: 0;
+    left: 14px;
+    right: 51px;
+    bottom: 0;
+     background:rgba(7,180,105,.2);
+}
+#about-section h3{
+    font-size:36px;
+    color:#1b1b1b;
+    margin-top:25px;
+    margin-bottom:40px;
+    text-transform: capitalize;
+}
+#about-section p{
+    font-size:18px;
+    color:1b1b1b;
+    text-align:justify;
+}
+#about-section .btn{
+        font-size: 16px;
+        margin-top:20px;
+        padding:20px 30px;
+}
+
+/*==============================
+        Services Section
+===============================*/
+.service-section img{
+    margin-top:30px;
+}
+
+.service-title h4{
+    font-size:18px;
+    color:#1d1d1d;
+    margin-top:25px;
+    margin-bottom:25px;
+    font-weight:600;
+}
+
+.servicer-content p{
+    font-size:16px;
+    color:#1d1d1d;
+     margin-bottom:34px;
+    font-weight:300;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+/*==============================
+       Project Section
+===============================*/
+
+#our-project{
+    position: relative;
+}
+#our-project h3{
+    font-size:36px;
+    color:#1d1d1d;
+    text-align: left;
+    margin-bottom:70px;
+}
+
+.project-btn{
+       margin:auto;
+
+
+     }
+.project-btn .btn{
+
+    font-size:16px;
+   }
+
+
+/*==============================
+      revews Section
+===============================*/
+#reviews-section{
+    background:url(../img/carousel.jpg);
+    height:500px;
+}
+
+.reviews-section h2{
+    font-size:100px;
+    color:#fff;
+}
+
+.reviews-content p{
+    font-size:16px;
+     color:#fff;
+
+}
+
+.reviews-title h4{
+    font-size:14px;
+     color:#fff;
+     font-weight:500;
+}
+.revieds-degni h5{
+    font-size:13px;
+     color:#fff;
+     font-weight: 300;
+}
+.review-image{
+    margin-top:50px;
+}
+
+.address-section{
+    text-align:left;
+}
+.address-section h4{
+    font-size: 18px;
+    color:#000;
+    margin-bottom:30px;
+    font-weight:500;
+}
+.address-section ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.address-section ul li{
+    padding:10px 0;
+    color: #000;
+    font-size:14px;
+}
+.address-map iframe {
+   margin-left:-75px;
+   margin-right:20px;
+    display:inline-block;
+}
+.contact-btn{
+    magiin:auto;
+    padding-top: 50px;
+
+    }
+
+/*==============================
+      Footer Section
+===============================*/
+footer{
+    background:url(../img/footer.jpg);
+    min-height:300px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:relative;
+    color:#fff;
+}
+footer:before{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background:rgba(4,93,138,.8);
+}
+
+.footer-title a{
+    font-size: 18px;
+    display:block;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom:20px;
+    color:#fff;
+
+}
+.fotter-content p{
+     font-size: 14px;
+     text-align: justify;
+     padding-right:40px;
+}
+.footer-title h3{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom:20px;
+
+}
+
+.fotter-content ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.fotter-content ul li {
+    font-size: 14px;
+    padding-top:10px;
+}
+
+
+@media (max-width:991px)  {
+   .navbar-toggler-icon{
+        color:#fff;
+    }
+    .sticky nav{
+
+    background:rgba(0,0,0,.6);
+
+}
+}

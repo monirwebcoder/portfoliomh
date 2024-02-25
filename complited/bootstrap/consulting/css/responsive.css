@@ -1,0 +1,71 @@
+
+
+
+
+
+@media (max-width: 1199.98px) { 
+ .left-testimonial{
+    margin-top:10px;
+  }  
+
+}
+
+
+@media (max-width: 991.98px) {
+     .widget-ins{
+   
+    margin-right:180px;
+         margin-top:10px;
+}  
+  
+  .left-testimonial{
+    margin-top:100px;
+  }  
+    
+}
+
+@media (max-width: 767.98px) { 
+    .top-menu{
+        margin-left:-20px;
+         margin-right:-20px;
+    }
+    .slider .img-fluid{
+        max-width:130%;
+    }
+    .slider-content h2{
+        font-size:30px;
+    }
+   .testimonial-item {
+    display: block;
+}
+    .testimonial-item p {
+        padding-right:0px;
+    }
+
+    .team-item{
+        text-align: center;
+    }
+
+     .team-item .text-left {
+    text-align: center !important;}
+ 
+
+
+}
+
+
+
+@media (max-width: 575.98px) { 
+    .top-menu{
+        display: none;
+    }
+}
+
+@media (max-width: 400px) { 
+   .slider-content h2{
+        font-size:20px;
+    }
+    .slider .img-fluid{
+        max-width:160%;
+    }
+}

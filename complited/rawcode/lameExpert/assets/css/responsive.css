@@ -1,0 +1,160 @@
+
+[class*="col-"] {
+  float: left;
+ 
+}
+.row{
+    width:85%;
+    margin:0 auto;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+@media only screen and (max-width: 1199px) {
+  
+    .submitbaton{
+        margin-top: 20px;
+    }
+    .flex-box {
+        width: 326px;}
+    .interest-item {
+        width: 325px;}
+}
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+.flex-box {
+    width: 266px;
+}
+    .btn-last {
+        padding: 19px 40px;}
+    .interest-item {
+    width: 270px;
+}
+    
+    
+    
+    
+}
+
+@media only screen and (max-width: 850px) {
+    .menu ul a{
+        padding: 11px;
+    }
+    .flex-box {
+    width: 230px;
+}
+    .interest-item {
+    width: 232px;
+}
+    
+}
+
+
+@media only screen and (max-width: 767px) {
+    .menu{
+        display: none;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+  .flex-box {
+    width: 208px;
+}
+.btn-last {
+    padding: 19px 13px;
+}
+ .interest-item {
+    width: 203px;
+    }    
+    #achieve{
+        margin-bottom: 848px;
+    }
+    #achieve .col-3{
+        width:100%;
+    }
+    .interest-item{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+   
+    
+}
+@media only screen and (max-width:650px) {
+    .sticky .bottom-menu{
+        margin-top: -59px;
+    }
+    .top-menu{
+      height:90px;
+    }
+}
+@media only screen and (max-width:575px) {
+ [class*="col-"] {
+    width: 100%;
+    }
+    .top-menu{
+       display: none;
+    }
+    
+    .right-side {
+        float: left;}
+    .banner-content h2 {
+        font-size: 47px;}
+    .flex-box {
+       margin: 0 auto;
+   margin-bottom: 22px;
+        height:px;}
+    .flex-title h3{
+        font-size:20px;
+    }
+    .flex-title span {
+        font-size: 15px;}
+     #gallerysec .btn{
+        margin-left: 155px;
+    }
+    .first-row img{
+        display: block;
+         margin: 0 auto;
+    }
+    .subscribe-left h3{
+        margin-bottom: 20px;
+    }
+    .fotter-social ul{
+        justify-content:flex-start;
+    }
+    .bottom-footer{
+        display: block;
+        margin:0 auto;
+        
+    }
+    .bottom-footer ul{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width:480px) {
+
+}

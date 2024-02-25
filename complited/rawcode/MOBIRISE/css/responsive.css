@@ -1,0 +1,279 @@
+@media only screen and (max-width:1200px){
+ul {
+   
+    margin-left: 25rem;
+
+} 
+    .about-section {
+    margin:0 2rem;
+    
+}
+.about-part img {
+    width: 50rem;
+    height: 50rem;
+    padding: 2rem 0;
+}
+ .footer {
+    
+    
+    margin:0 1.5rem;
+}   
+    
+    
+}
+
+@media only screen and (max-width:1024px){
+    
+    html{
+	font-size:45%;
+   
+}
+.about-part img {
+    width: 100%;
+    height:75rem;
+    margin-left:2rem;
+    padding: 2rem 2rem;
+}
+
+}
+@media only screen and (max-width:980px){
+     html{
+	font-size: 45%;
+    
+}
+.menu {
+    width: 51%;
+}
+ul {
+    
+    margin-left: 5rem;
+
+}
+
+}
+@media only screen and (max-width:768px){
+    
+    html{
+	font-size: 55%;
+   
+}
+
+
+ul{
+    margin-left:0rem;
+    margin-right:0
+}
+
+
+ul li {
+    
+    margin-left: 0rem;
+   
+}
+ul li a{
+     padding:5px;
+}
+
+.slider-section{
+    height: 450px;
+}
+
+.specialized-section h2,
+.specialized-section .little-des  {
+  
+  margin-left:-240px;
+}
+
+.specialized-section .little-des {
+    font-size:14px;
+}
+.carasol-section {
+    width:35%;
+    margin:0;
+    text-align:center;
+    
+}
+
+.icon-element {
+    width: 50%;
+    
+}
+
+.work-program h2,.work-program p {
+    
+    margin-left:-225px;
+}
+.work-program p{
+    font-size:12px;
+}
+.work {
+    width:35%;
+
+}
+.work-detail h3 {
+    text-align:left;
+    margin-left:10rem;
+}
+
+.work-detail p {
+    text-align:justify;
+    margin:2rem 1rem;
+}
+.about-section{
+    margin:0;
+    padding:10px;
+    height: 103rem
+   
+}
+.about-part {
+    width: 100%;
+    height: 51rem;
+   
+}
+.about-part img {
+    width:100%;
+    height: 53rem;
+
+   
+}
+.socila-icon ul li a i {
+    margin-left: 0.5rem;
+    margin-top: .7rem;
+   
+
+}
+
+.footer{
+    clear:both;
+}
+.copyright ul li a i {
+   margin-left: .6rem;
+   margin-top:1rem;
+
+}
+
+
+
+ }  
+    @media only screen and (max-width:480px){
+        
+         html{
+    font-size: 50%;
+   
+}
+
+.logo{
+    width:10%;
+}
+ul {
+    margin-left:-80px;
+}
+
+ul li a{
+     padding:5px;
+     font-size:10px;
+
+}
+
+.slider-section{
+    height: 450px;
+}
+
+.specialized-section h2,
+.specialized-section .little-des  {
+  
+  margin-left:-410px;
+}
+
+.specialized-section .little-des {
+    font-size:10px;
+    margin-right:20px;
+
+}
+.carasol-section {
+    width:70%;
+    text-align:center;
+    padding:0 20px;
+    margin:-20px 0;
+    
+}
+
+.carasol-section .icons,.carasol-section h3 {
+    margin-left:-155px;
+}
+
+.carasol-section p {
+   margin-left:-155px;
+   padding:0 180px;
+}
+
+
+.icon-element {
+    width: 100%;
+    
+}
+
+.work-program h2,.work-program p {
+    
+    margin-left:-435px;
+}
+.work-program p{
+    font-size:10px;
+      margin-right:40px;
+}
+.work {
+    width:100%;
+    margin-left:118px;
+
+}
+
+.work-detail  p{
+    font-size:14px;
+    margin-left:-80px;
+    margin-right:640px;
+
+}
+.about-section{
+   
+    height: 120rem;
+   overflow:hidden;
+}
+
+.about-part{
+    width:100%;
+    height:67rem;
+}
+ .about-part p {
+    font-size:14px;
+    margin-left:10px;
+    margin-right:512px;
+   
+
+
+    }
+
+    .about-tag ul{
+         margin-right:512px;
+         
+    }
+.about-part img{
+    margin-left:-25px;
+    width: 53%;
+    height:55rem
+}
+
+.footer {
+   
+    min-height: 30rem;
+    margin:0;
+   
+}
+
+.copyright {
+    width:100%;
+    padding:10px 30px;
+   
+}
+
+
+}
